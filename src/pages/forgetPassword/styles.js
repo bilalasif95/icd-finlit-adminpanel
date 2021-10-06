@@ -15,6 +15,7 @@ export default makeStyles(theme => ({
   logotypeImage: {
     margin: "0 auto",
     display: "block",
+    maxWidth: "10rem",
     width: "100%",
   },
   logotypeText: {

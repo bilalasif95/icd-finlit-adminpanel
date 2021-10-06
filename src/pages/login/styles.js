@@ -15,6 +15,7 @@ export default makeStyles(theme => ({
   logotypeImage: {
     margin: "0 auto",
     display: "block",
+    maxWidth: "10rem",
     width: "100%",
   },
   logotypeText: {
@@ -46,6 +47,7 @@ export default makeStyles(theme => ({
   greeting: {
     color: "#9ea0a5",
     display: "block",
+    fontFamily: "Lato",
     fontSize: 20,
     textAlign: "center",
     margin: "2rem 0",
