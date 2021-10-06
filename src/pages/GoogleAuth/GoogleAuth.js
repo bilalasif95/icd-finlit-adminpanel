@@ -15,7 +15,7 @@ import UseEnterKeyListener from "../Verification/useEnterKeyListener";
 function Verification(props) {
     UseEnterKeyListener({
         querySelectorToExecuteClick: "#submitButton"
-      });
+    });
     const [imageUrl, setImageURL] = useState("");
     const [secret, setSecret] = useState("");
     const classes = useStyles();
@@ -33,8 +33,8 @@ function Verification(props) {
                     setToken(token)
                     callApi(subUrl.generateQRCode, "post", token, null)
                         .then(res => {
-                            setImageURL(res.ImageUrl)
-                            setSecret(res.Secret)
+                            setImageURL(res.data.ImageUrl)
+                            setSecret(res.data.Secret)
                             setLoading(false)
                         })
                         .catch(() => {
