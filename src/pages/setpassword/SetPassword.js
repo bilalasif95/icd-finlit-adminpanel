@@ -46,7 +46,7 @@ function SetPassword(props) {
     } else {
       callApi(subUrl.signup + qs.token, "post", null, { password: loginValue, confirmPassword: passwordValue })
         .then(res => {
-          if (res.code === 2105) {
+          if (res.code === 1000) {
             firebase.auth().signInWithEmailAndPassword(res.data.email, loginValue)
             setSuccess(res.message);
             setTimeout(() => {
