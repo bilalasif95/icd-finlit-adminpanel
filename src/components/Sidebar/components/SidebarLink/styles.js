@@ -4,17 +4,17 @@ export default makeStyles(theme => ({
   link: {
     textDecoration: "none",
     "&:hover, &:focus": {
-      backgroundColor: "#3885ef",
+      backgroundColor: "#255f2b",
       textDecoration: "none",
     },
   },
   linkActive: {
-    backgroundColor: "#3885ef",
+    backgroundColor: "#255f2b",
   },
   linkNested: {
     paddingLeft: 0,
     "&:hover, &:focus": {
-      backgroundColor: "#3885ef",
+      backgroundColor: "#255f2b",
     },
   },
   linkIcon: {
@@ -33,6 +33,7 @@ export default makeStyles(theme => ({
     padding: 0,
     color: "#fff",
     transition: theme.transitions.create(["opacity", "color"]),
+    fontFamily:"Lato",
     fontSize: 14,
     "@media (min-width: 1680px)": {
       fontSize: "18px",

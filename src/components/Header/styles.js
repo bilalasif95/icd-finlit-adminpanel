@@ -12,7 +12,7 @@ export default makeStyles(theme => ({
     },
   },
   logoIcon: {
-    width: "100%"
+    width: "6rem",
   },
   appBar: {
     width: "100vw",

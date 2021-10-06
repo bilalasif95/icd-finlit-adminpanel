@@ -15,7 +15,7 @@ import { Badge, Typography } from "../Wrappers/Wrappers";
 import Notification from "../Notification/Notification";
 import { useLayoutState, useLayoutDispatch, toggleSidebar } from "../../context/LayoutContext";
 import { useUserDispatch, signOut } from "../../context/UserContext";
-import logo from "../../images/logo.svg";
+import logo from "../../images/logosmall.png";
 
 const notifications = [
   // { id: 0, color: "warning", message: <p className="width ellipse twolines"><span className="bold">Maria Pereira</span> requested $50 to <span className="bold">Olive Wood</span> <span className="br-block"></span> Here's what you owe me, thank you.</p> },
