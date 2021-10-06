@@ -1,0 +1,6 @@
+{
+  "name": "customer-information",
+  "version": "0.0.0",
+  "main": "CustomerInformation.js",
+  "private": true
+}

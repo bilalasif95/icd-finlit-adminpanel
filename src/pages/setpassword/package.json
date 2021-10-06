@@ -1,0 +1,6 @@
+{
+  "name": "set-password",
+  "version": "0.0.0",
+  "main": "SetPassword.js",
+  "private": true
+}

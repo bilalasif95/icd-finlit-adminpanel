@@ -1,0 +1,6 @@
+{
+  "name": "business-information",
+  "version": "0.0.0",
+  "main": "BusinessInformation.js",
+  "private": true
+}

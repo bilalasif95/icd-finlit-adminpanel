@@ -1,0 +1,6 @@
+{
+  "name": "customer-support",
+  "version": "0.0.0",
+  "main": "CustomerSupport.js",
+  "private": true
+}

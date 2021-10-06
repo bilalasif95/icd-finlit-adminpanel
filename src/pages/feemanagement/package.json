@@ -1,0 +1,6 @@
+{
+  "name": "fee-management",
+  "version": "0.0.0",
+  "main": "FeeManagement.js",
+  "private": true
+}

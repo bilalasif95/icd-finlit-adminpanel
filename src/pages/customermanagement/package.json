@@ -1,0 +1,6 @@
+{
+  "name": "customer-management",
+  "version": "0.0.0",
+  "main": "CustomerManagement.js",
+  "private": true
+}

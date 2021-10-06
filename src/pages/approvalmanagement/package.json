@@ -1,0 +1,6 @@
+{
+  "name": "approval-management",
+  "version": "0.0.0",
+  "main": "ApprovalManagement.js",
+  "private": true
+}

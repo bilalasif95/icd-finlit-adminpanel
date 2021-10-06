@@ -1,0 +1,34 @@
+.StaffTable .MuiSvgIcon-root{
+    path{
+        fill: #9ea0a5;
+    }
+}
+
+.submitButton.Mui-disabled{
+    color: rgba(0, 0, 0, 0.26) !important;
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.12) !important;
+    cursor: not-allowed !important;
+    pointer-events: unset !important;
+}
+
+.editingField {
+    input {
+        background-color: #fff !important;
+        border: 1px solid #ced4da !important;
+    }
+    .EditBtn {
+        position: absolute;
+        color: #0667EB;
+        right: 16px;
+        top: 45%;
+        &:focus {
+            outline: none;
+            box-shadow: inherit;
+        }
+    }
+}
+
+.btn:disabled {
+    cursor: not-allowed;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "report-customer-information",
+  "version": "0.0.0",
+  "main": "ReportCustomerInfo.js",
+  "private": true
+}

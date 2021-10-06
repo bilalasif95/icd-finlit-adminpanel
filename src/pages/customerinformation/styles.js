@@ -1,0 +1,122 @@
+import { makeStyles } from "@material-ui/styles";
+
+export default makeStyles(theme => ({
+  title: {
+    fontSize: 30,
+    fontWeight: 400,
+    margin: "-24px 0 2rem",
+    color: "#9EA0A5",
+  },
+  custInfo: {
+    display: "flex",
+    justifyContent: "space-between",
+    flexWrap: 'wrap',
+    width: "100%",
+  },
+  balanceList: {
+    display: "flex",
+    justifyContent: "flex-start",
+    width: "100%",
+    padding: '0 0 2rem',
+    borderBottom: '1px solid #ddd',
+  },
+  balItem: {
+    display: "flex",
+    justifyContent: "flex-start",
+    flexWrap: "wrap",
+    width: "20%",
+    "& h4": {
+      fontWeight: "500",
+    },
+  },
+  baLabel: {
+    color: "#a9abb0",
+    margin: '0',
+    padding: "0.5rem 0",
+    width: "100%",
+  },
+  bal: {
+    fontSize: 20,
+    fontWeight: 500,
+    margin: '0',
+    width: "100%",
+    display: "flex",
+  },
+  inForm: {
+    display: "flex",
+    justifyContent: "flex-start",
+    width: "100%",
+  },
+  fieldContainer: {
+    display: "flex",
+    justifyContent: "space-between",
+    width: "60%",
+  },
+  mgtCol: {
+    display: "flex",
+    justifyContent: "space-between",
+    flexWrap: "wrap",
+    width: "49%",
+    minHeight: "100%",
+  },
+  mgtBox: {
+    border: "1px solid #e1e1e1",
+    borderRadius: 3,
+    display: "flex",
+    flexWrap: "wrap",
+    justifyContent: "flex-start",
+    padding: "1rem",
+    margin: "0 0 1.7rem",
+    height: "47.7%",
+  },
+  mgtBoxL: {
+    border: "1px solid #e1e1e1",
+    borderRadius: 3,
+    padding: "1rem",
+    margin: "0 0 1.5rem",
+    height: "100%",
+  },
+  heading: {
+    color: "#000",
+    fontSize: 24,
+    fontWeight: 600,
+    width: "100%",
+  },
+  form: {
+    display: "flex",
+    flexWrap: "wrap",
+    justifyContent: "flex-start",
+    width: "100%",
+  },
+  fieldCont: {
+    alignItems: "center",
+    display: "flex",
+    flexWrap: "wrap",
+    justifyContent: "space-between",
+    padding: "1rem 0",
+    width: "48%",
+  },
+  label: {
+    color: "#a9abb0",
+    padding: "0.5rem 0",
+    width: "100%",
+  },
+  showRes: {
+    backgroundColor: "#eaedf3",
+    borderRadius: 3,
+    color: "#000",
+    padding: "0.7rem 1rem",
+    width: '100%',
+    minHeight: "42px",
+    height: "auto",
+  },
+  editBtn: {
+    color: "#0667EB",
+    border: "none",
+    boxShadow: "none !important",
+    width: "15%",
+    "&:hover": {
+      backgroundColor: "transparent",
+    },
+  },
+}));

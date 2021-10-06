@@ -1,0 +1,35 @@
+ .MuiInputBase-root{
+    &:hover{
+      &:before{
+        border-bottom: none !important;
+      }
+    }
+  }
+  .MuiInputBase-root{
+      &:before{
+        border-bottom: none !important;
+      }
+  }
+  .GreyBorder{
+    border-bottom: 1px solid #EEEEEE;
+    width: 100%;
+    display: block;
+  }
+  .SecApproval{
+    margin-top: 27px;
+  }
+  .NoteText{
+    p{
+    color: #E6492D !important;
+    font-size: 12px;
+    margin-bottom: 0px;
+    }
+  }
+
+.MuiDialogTitle-root {
+  padding: 35px 50px !important;
+}
+
+.charityImage{
+  padding: 0 !important;
+}

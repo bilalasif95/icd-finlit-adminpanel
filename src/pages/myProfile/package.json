@@ -1,0 +1,6 @@
+{
+  "name": "my-profile",
+  "version": "0.0.0",
+  "main": "MyProfile.js",
+  "private": true
+}

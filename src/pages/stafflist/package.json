@@ -1,0 +1,6 @@
+{
+  "name": "staff-list",
+  "version": "0.0.0",
+  "main": "StaffList.js",
+  "private": true
+}

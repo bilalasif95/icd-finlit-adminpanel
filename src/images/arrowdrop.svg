@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 8" width="16" height="8">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff;stroke: #e8eafc;paint-order:stroke fill markers;stroke-width: 2 } 
+	</style>
+	<path id="Shape 2" class="shp0" d="M8 0L0 8L16 8L8 0Z" />
+</svg>
